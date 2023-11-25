@@ -4,7 +4,7 @@
   "description": "file system practice",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon readStream.js"
   },
   "repository": {
     "type": "git",

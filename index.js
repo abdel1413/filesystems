@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+const readStream = require("./readStream");
 
 const PORT = 3020 || 3000;
 
@@ -46,5 +47,4 @@ if (fs.existsSync("./docs/fileToDel.txt")) {
     console.log("successfully deleted");
   });
 }
-
-console.log("end files systems");
+console.log("readin stream", readStream.read_stream);
