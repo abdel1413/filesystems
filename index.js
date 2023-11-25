@@ -46,3 +46,5 @@ if (fs.existsSync("./docs/fileToDel.txt")) {
     console.log("successfully deleted");
   });
 }
+
+console.log("end files systems");
